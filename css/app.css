@@ -1,0 +1,186 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*HEADER*/
+header{
+    background-color:#5c5c5c;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+}
+.menu{
+	background-color:#5c5c5c;
+	color:#5c5c5c;
+	font-family: 'Quicksand', sans-serif;
+	font-size:1.5rem;
+}
+.menu a{
+	color:white;
+}
+header h1 {
+	text-align: center;	
+}
+.menu {
+	justify-content: center;
+}
+
+@media screen and (min-width: 40em){
+
+	header h1 {
+		text-align: left;	
+	}
+
+	.menu {
+		justify-content: flex-end;
+	}
+
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	font-size:1rem;
+}
+li{
+	font-family: 'Montserrat', sans-serif;
+	color:#5c5c5c;
+}
+/*BODY*/
+h2{
+	font-family: 'Quicksand', sans-serif;
+	text-align:center;
+	color:#5c5c5c;
+}
+h1{
+	font-size:2rem;
+	font-family: 'Quicksand', sans-serif;
+	text-align:center;
+	color:white;
+}
+blockquote p{
+color:white;
+font-size:3rem;
+}
+
+
+
+
+/*INTRO*/
+.intro{
+padding-top:4.5rem;
+padding-bottom:4.5rem;
+background-color:#6e9d88;
+}
+
+
+
+
+/*THINGS TO DO*/
+.thingstodo{
+padding:4.5rem 0;
+background-color:white;
+}
+.thingstodo h1{
+	color:#5c5c5c;
+	font-size:3.5rem;
+	padding-bottom:1.5rem;
+}
+.thingstodo p{
+		color:#5c5c5c;
+	padding-bottom:1.5rem;
+}
+
+.thingstodo a{
+	color:#22543E;
+}
+
+
+/*TESTIMONALS*/
+.testimonials{
+background-color:#6e9d88;
+padding-bottom:4rem;
+padding-top:4rem;
+color:white;
+}
+
+.testimonials p{
+	font-size:2rem;
+}
+.testimonials h1{
+	font-size:3rem;
+}
+
+/*OVERNIGHTS*/
+.overnights{
+background-color:white;
+padding-top:4rem;
+padding-bottom:4rem;
+font-color:#5c5c5c;
+}
+.overnights h1{
+	color:#5c5c5c;
+	font-size:3.5rem;
+	padding-bottom:1.5rem;
+}
+.overnights p{
+	color:#5c5c5c;
+	padding-bottom:1.5rem;
+}
+
+.overnights a{
+	color:#22543E;
+}
+.learnmore{
+	background-color:#6e9d88;
+	padding-bottom:1.5rem;
+	padding-top:1.5rem;
+}
+.learnmore img{
+	padding-left:1rem;
+	padding-top:1.5rem;
+  padding-bottom:1.5rem;
+}
+.learnmore h1{
+	font-size:3rem;
+	text-align:left;
+}
+
+.learnmore .button{
+	background-color:white;
+	 color:#6e9d88;
+}
+
+.learnmore label{
+	color:white;
+}
+
+.reveal h1{
+	color:#5c5c5c;
+	text-align:center;
+}
+.reveal p{
+	color:#5c5c5c;
+	text-align:center;
+}
+.hero{
+
+}
+
+footer{
+	background-color:#5c5c5c;
+	padding-top:1.5rem;
+	padding-bottom:1.5rem;
+}
+
+.fab {
+color: #fff;
+padding:.5rem;
+}
+
+
+@media screen and (min-width: 40em){
+	h1{
+		font-size:6rem;
+	}
+}
+
